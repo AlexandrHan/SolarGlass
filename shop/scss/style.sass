@@ -43,6 +43,15 @@ a
   margin-top: -15px
   height: 75px
 
+.logo-section
+  margin-top: 40px
+  margin-bottom: 40px
+  p
+    color: #fff
+    max-width: 600px
+    margin-left: auto
+    margin-right: auto
+
 .header-item
   padding: .25rem .4rem
   cursor: pointer
@@ -127,14 +136,17 @@ a
 
 .product-item
   position: relative
-  background-color: #111111
+  background-color: #252525
   box-shadow: #000000 0 0 10px 1px
-  //padding: 50px
+  @media screen and ( min-width:  768px)
+    .stations-button
+      display: none
   &:hover
     box-shadow: #aaa 0 0 10px 1px
     .buttons-item
       opacity: 1
-      
+    .stations-item
+      opacity: 1      
   .product-item-logo
     @media screen and ( min-width:  768px)
       width: 80% 
@@ -146,8 +158,6 @@ a
   top: 0 
   left: 0
   background-image: linear-gradient( #000000bd, #000000b9 ) 
-  /* Четвертая "группа" чисел задает прозрачность. ff - стандартный, 00 - невидимый, 
-     а 88 и 8 как-раз где-то посередине прозрачности */
   padding: 50px
   box-sizing: border-box
   width: 100%
@@ -157,12 +167,24 @@ a
     background-color: #252424
     box-shadow: #aaa 0 0 5px 1px
 
-
- 
+.stations-item 
+  opacity: 0 
+  transition: opacity 1s   
+  position: absolute
+  top: 0 
+  left: 0
+  background-image: linear-gradient( #000000d2, #000000d7 ) 
+  padding: 20px 50px
+  box-sizing: border-box
+  width: 100%
+  height: 100% 
+  h3
+    color: #bb0f0f
+  p
+    //margin-top: 10%
+    color: #fff
+    text-align: start
       
-
-
-  
 .product-list
   list-style: none
 

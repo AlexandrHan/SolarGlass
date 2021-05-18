@@ -7,22 +7,26 @@
 /*--------------------------------------------------------------
  *# General
  *-------------------------------------------------------------- */
+/* line 12, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 body {
   font-family: "Open Sans", sans-serif;
   color: #ffffff;
   background-color: #303030;
 }
 
+/* line 17, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 a {
   color: #e03a3c;
   text-decoration: none;
 }
 
+/* line 21, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 a:hover {
   color: #e76668;
   text-decoration: none;
 }
 
+/* line 25, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
@@ -30,6 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
  *# Back to top button
  *-------------------------------------------------------------- */
+/* line 32, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .back-to-top {
   position: fixed;
   visibility: hidden;
@@ -44,6 +49,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.4s;
 }
 
+/* line 45, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .back-to-top i {
   font-size: 28px;
   color: #fff;
@@ -51,10 +57,12 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.4s;
 }
 
+/* line 51, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .back-to-top:hover {
   background: #bb0f0f;
 }
 
+/* line 53, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .back-to-top:hover i {
   color: #fff;
   font-size: 44px;
@@ -62,6 +70,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.4s;
 }
 
+/* line 59, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
@@ -71,6 +80,7 @@ h1, h2, h3, h4, h5, h6 {
  *# Disable aos animation delay on mobile devices
  *-------------------------------------------------------------- */
 @media screen and (max-width: 768px) {
+  /* line 67, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   [data-aos-delay] {
     transition-delay: 0 !important;
   }
@@ -79,6 +89,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
  *# Header
  *-------------------------------------------------------------- */
+/* line 74, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #header {
   background: #303030;
   transition: all 0.5s;
@@ -87,11 +98,13 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 5px 6px #000;
 }
 
+/* line 80, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #header.header-scrolled {
   padding: 0;
   box-shadow: 0px 5px 6px #000;
 }
 
+/* line 84, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #header .logo {
   font-size: 30px;
   margin: 0;
@@ -100,14 +113,17 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Poppins", sans-serif;
 }
 
+/* line 91, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #header .logo a {
   color: #111111;
 }
 
+/* line 94, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #header .logo a span {
   color: #e03a3c;
 }
 
+/* line 97, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #header .logo img {
   max-height: 60px;
   padding: 0;
@@ -116,6 +132,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
  *# Get Startet Button
  *-------------------------------------------------------------- */
+/* line 106, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .get-started-btn {
   margin-left: 30px;
   background: #e03a3c;
@@ -129,12 +146,14 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
 }
 
+/* line 118, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .get-started-btn:hover {
   background: #111111;
   color: #fff;
 }
 
 @media (max-width: 992px) {
+  /* line 123, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   .get-started-btn {
     margin: 0 15px 0 0;
     padding: 6px 18px;
@@ -146,11 +165,13 @@ h1, h2, h3, h4, h5, h6 {
  *-------------------------------------------------------------- */
 /**
  ** Desktop Navigation */
+/* line 133, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar {
   padding: 0;
   background-color: #303030;
 }
 
+/* line 137, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar ul {
   margin: 0;
   padding: 0;
@@ -159,10 +180,12 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 
+/* line 144, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar li {
   position: relative;
 }
 
+/* line 147, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar a {
   display: flex;
   align-items: center;
@@ -176,20 +199,24 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.4s;
 }
 
+/* line 160, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar a i {
   font-size: 12px;
   line-height: 0;
   margin-left: 5px;
 }
 
+/* line 165, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar a:hover {
   color: #bb0f0f;
 }
 
+/* line 168, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar .active, .navbar li:hover > a {
   color: #bb0f0f;
 }
 
+/* line 172, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar .dropdown ul {
   display: block;
   position: absolute;
@@ -207,39 +234,47 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.4s;
 }
 
+/* line 188, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar .dropdown ul li {
   min-width: 200px;
 }
 
+/* line 191, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar .dropdown ul a {
   padding: 10px 20px;
   font-size: 16px;
 }
 
+/* line 195, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
 
+/* line 198, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar .dropdown ul a:hover {
   color: #000;
 }
 
+/* line 201, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
   color: #000;
 }
 
+/* line 204, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
 }
 
+/* line 210, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar .dropdown .dropstart ul {
   top: 0;
   left: calc(100% - 30px);
   visibility: hidden;
 }
 
+/* line 215, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar .dropdown .dropstart:hover > ul {
   opacity: 1;
   top: 0;
@@ -248,9 +283,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 1366px) {
+  /* line 223, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   .navbar .dropdown .dropdown ul {
     left: -90%;
   }
+  /* line 226, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
@@ -258,6 +295,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /**
  ** Mobile Navigation */
+/* line 232, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .mobile-nav-toggle {
   color: #bb0f0f;
   font-size: 50px;
@@ -267,19 +305,23 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
 }
 
+/* line 240, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .mobile-nav-toggle.bi-x {
   color: #bb0f0f;
 }
 
 @media (max-width: 991px) {
+  /* line 244, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   .mobile-nav-toggle {
     display: block;
   }
+  /* line 247, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   .navbar ul {
     display: none;
   }
 }
 
+/* line 250, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar-mobile {
   position: fixed;
   overflow: hidden;
@@ -292,6 +334,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 999;
 }
 
+/* line 261, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
   font-size: 60px;
@@ -299,6 +342,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 15px;
 }
 
+/* line 267, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar-mobile ul {
   display: block;
   position: absolute;
@@ -313,24 +357,29 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9;
 }
 
+/* line 280, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 18px;
   color: #ffffff;
 }
 
+/* line 285, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar-mobile a:hover {
   color: #bb0f0f;
 }
 
+/* line 288, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar-mobile .active, .navbar-mobile li:hover > a {
   color: #bb0f0f;
 }
 
+/* line 291, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar-mobile .getstarted {
   margin: 15px;
 }
 
+/* line 295, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar-mobile .dropdown ul {
   position: static;
   display: none;
@@ -343,26 +392,32 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
+/* line 306, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar-mobile .dropdown ul li {
   max-width: 100px;
 }
 
+/* line 309, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar-mobile .dropdown ul a {
   padding: 10px 20px;
 }
 
+/* line 312, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar-mobile .dropdown ul a i {
   font-size: 18px;
 }
 
+/* line 315, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar-mobile .dropdown ul a:hover {
   color: #bb0f0f;
 }
 
+/* line 318, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
   color: #bb0f0f;
 }
 
+/* line 321, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
@@ -370,6 +425,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
  *# Hero Section
  *-------------------------------------------------------------- */
+/* line 329, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #hero {
   width: 100%;
   height: 100vh;
@@ -379,6 +435,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
+/* line 337, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #hero:before {
   content: "";
   position: absolute;
@@ -388,6 +445,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
 }
 
+/* line 346, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #hero h1 {
   margin: 0;
   font-size: 48px;
@@ -395,6 +453,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
+/* line 352, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #hero .main-title {
   margin-top: 30%;
   font-size: 60px;
@@ -405,24 +464,28 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 10px 10px 2px #000;
 }
 
+/* line 361, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #hero .main-title:hover .yelow-title {
   font-size: 70px;
   transition: 0.9s;
   text-shadow: 20px 20px 4px black, 0 0 1em #f3e527;
 }
 
+/* line 366, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #hero .main-title .yelow-title {
   color: #ffe600;
   text-shadow: 10px 10px 8px black, 0 0 1em #f3e527;
   transition: 0.9s;
 }
 
+/* line 371, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #hero h2 {
   color: #bb0f0f;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
 
+/* line 376, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #hero .main-subtitle {
   color: #fff;
   margin: 10px 0 0 0;
@@ -433,6 +496,7 @@ h1, h2, h3, h4, h5, h6 {
   text-shadow: 4px 4px 2px #000;
 }
 
+/* line 385, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #hero .btn-get-started {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -451,36 +515,44 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 10px 10px 8px #000;
 }
 
+/* line 402, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #hero .btn-get-started:hover {
   padding: 13px 37px;
   box-shadow: 20px 20px 4px black, 0 0 1em #000;
 }
 
 @media (max-width: 768px) {
+  /* line 407, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   #hero {
     text-align: center;
     padding-top: 58px;
   }
+  /* line 411, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   #hero .main-title {
     font-size: 28px;
   }
+  /* line 414, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   #hero .main-subtitle {
     font-size: 18px;
     line-height: 24px;
   }
+  /* line 418, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   #hero h1 {
     font-size: 28px;
   }
+  /* line 421, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
   }
+  /* line 425, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   #hero .btn-get-started {
     top: 90%;
   }
 }
 
 @media (max-height: 500px) {
+  /* line 429, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   #hero {
     height: 120vh;
   }
@@ -489,18 +561,21 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
  *# Sections General
  *-------------------------------------------------------------- */
+/* line 436, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 section {
   padding: 60px 0;
   overflow: hidden;
   position: relative;
 }
 
+/* line 441, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .section-title {
   text-align: center;
   padding-bottom: 30px;
   position: relative;
 }
 
+/* line 446, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
@@ -512,6 +587,7 @@ section {
   text-shadow: 3px 3px 8px #000000;
 }
 
+/* line 456, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .section-title h2::after {
   content: '';
   position: absolute;
@@ -524,15 +600,18 @@ section {
   left: calc(50% - 25px);
 }
 
+/* line 467, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .section-title p {
   margin-bottom: 0;
 }
 
+/* line 470, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .section-bg {
   padding: 120px 0;
   color: #fff;
 }
 
+/* line 474, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .section-bg:before {
   content: "";
   background: #1b1b1b;
@@ -547,6 +626,7 @@ section {
 /*--------------------------------------------------------------
  *# Breadcrumbs
  *-------------------------------------------------------------- */
+/* line 488, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .breadcrumbs {
   padding: 15px 0;
   background: #2b2b2b;
@@ -555,12 +635,14 @@ section {
   color: #fff;
 }
 
+/* line 495, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .breadcrumbs h2 {
   font-size: 28px;
   font-weight: 500;
   color: #bb0f0f;
 }
 
+/* line 500, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .breadcrumbs ol {
   display: flex;
   flex-wrap: wrap;
@@ -570,19 +652,23 @@ section {
   font-size: 14px;
 }
 
+/* line 508, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .breadcrumbs ol a {
   color: #aaaaaa;
 }
 
+/* line 511, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .breadcrumbs ol a:hover {
   color: #fff;
   transition: 0.3s;
 }
 
+/* line 515, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .breadcrumbs ol li + li {
   padding-left: 10px;
 }
 
+/* line 518, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
@@ -593,11 +679,13 @@ section {
 /*--------------------------------------------------------------
  *# Clients
  *-------------------------------------------------------------- */
+/* line 529, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .clients .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
+/* line 533, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .clients .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
@@ -606,10 +694,12 @@ section {
   border: 2px solid #bb0f0f;
 }
 
+/* line 540, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .clients .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #bb0f0f;
 }
 
+/* line 543, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .clients .swiper-slide img {
   width: 500px;
   transition: 0.3s;
@@ -618,11 +708,13 @@ section {
 /*--------------------------------------------------------------
  *# About
  *-------------------------------------------------------------- */
+/* line 554, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .about .container {
   position: relative;
   z-index: 10;
 }
 
+/* line 558, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .about .about-btn-mobile {
   padding: 8px 30px 9px 30px;
   color: #fff;
@@ -637,15 +729,18 @@ section {
 }
 
 @media (min-width: 768px) {
+  /* line 558, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   .about .about-btn-mobile {
     display: none;
   }
 }
 
+/* line 572, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .about .content {
   padding: 30px 30px 30px 0;
 }
 
+/* line 575, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .about .content h3 {
   font-weight: 700;
   font-size: 34px;
@@ -653,10 +748,12 @@ section {
   color: #bb0f0f;
 }
 
+/* line 581, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .about .content p {
   margin-bottom: 30px;
 }
 
+/* line 584, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .about .content .about-btn {
   padding: 8px 30px 9px 30px;
   color: #fff;
@@ -671,48 +768,57 @@ section {
 }
 
 @media (max-width: 768px) {
+  /* line 584, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   .about .content .about-btn {
     display: none;
   }
 }
 
+/* line 598, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .about .content .about-btn i {
   font-size: 16px;
   padding-left: 5px;
 }
 
+/* line 602, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .about .content .about-btn:hover {
   background: #bb0f0f;
 }
 
+/* line 605, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .about .icon-boxes .icon-box {
   margin-top: 30px;
 }
 
+/* line 608, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .about .icon-boxes .icon-box i {
   font-size: 40px;
   color: #bb0f0f;
   margin-bottom: 10px;
 }
 
+/* line 613, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .about .icon-boxes .icon-box h4 {
   font-size: 20px;
   font-weight: 700;
   margin: 0 0 10px 0;
 }
 
+/* line 618, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .about .icon-boxes .icon-box p {
   font-size: 15px;
   color: #a3a3a3;
 }
 
 @media (max-width: 1200px) {
+  /* line 623, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   .about .content {
     padding-right: 0;
   }
 }
 
 @media (max-width: 768px) {
+  /* line 627, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   .about {
     text-align: center;
   }
@@ -721,10 +827,12 @@ section {
 /*--------------------------------------------------------------
  *# Counts
  *-------------------------------------------------------------- */
+/* line 634, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .counts {
   padding-top: 80px;
 }
 
+/* line 637, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .counts .count-box {
   padding: 30px 30px 25px 30px;
   width: 100%;
@@ -736,6 +844,7 @@ section {
   background-color: #2b2b2b;
 }
 
+/* line 647, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .counts .count-box img {
   width: 100%;
   max-width: 350px;
@@ -745,11 +854,13 @@ section {
   border-radius: 4px;
 }
 
+/* line 655, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .counts .count-box h3 {
   color: #bb0f0f;
   text-shadow: 2px 2px 5px #000000;
 }
 
+/* line 659, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .counts .count-box p {
   padding: 0;
   margin: 0;
@@ -758,6 +869,7 @@ section {
   text-shadow: 2px 2px 5px #000000;
 }
 
+/* line 666, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .counts .count-box .counts-btn {
   margin-top: 30px;
   padding: 8px 30px 9px 30px;
@@ -773,11 +885,13 @@ section {
   text-shadow: 2px 2px 5px #000000;
 }
 
+/* line 679, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .counts .count-box .counts-btn:hover {
   background-color: #bb0f0f;
   border: 2px solid #ffffff;
 }
 
+/* line 682, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .counts .count-box .counts-btn i {
   padding-left: 20px;
   font-size: 20px;
@@ -786,14 +900,17 @@ section {
 /*--------------------------------------------------------------
  *# Tabs
  *-------------------------------------------------------------- */
+/* line 690, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .tabs {
   background-color: #303030;
 }
 
+/* line 692, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .tabs .nav-tabs {
   border: 0;
 }
 
+/* line 695, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .tabs .nav-link {
   border: 1px solid #b9b9b9;
   padding: 15px;
@@ -809,31 +926,37 @@ section {
   text-shadow: 1px 1px 1px #000;
 }
 
+/* line 710, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .tabs .nav-link i {
   font-size: 48px;
 }
 
+/* line 713, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .tabs .nav-link p {
   font-size: 18px;
   font-weight: 600;
   margin: 0;
 }
 
+/* line 718, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .tabs .nav-link:hover {
   color: #fff;
   text-shadow: 1px 1px 1px #000;
 }
 
+/* line 722, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .tabs .nav-link.active {
   background: #bb0f0f;
   color: #fff;
   border-color: #bb0f0f;
 }
 
+/* line 727, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .tabs .tab-content {
   margin-top: 30px;
 }
 
+/* line 731, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .tabs .tab-pane h3 {
   font-weight: 600;
   font-size: 26px;
@@ -841,16 +964,19 @@ section {
   text-shadow: 2px 2px 5px #000000;
 }
 
+/* line 737, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .tabs .tab-pane ul {
   list-style: none;
   padding: 0;
 }
 
+/* line 741, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .tabs .tab-pane ul li {
   padding-bottom: 10px;
   text-shadow: 2px 2px 5px #000000;
 }
 
+/* line 745, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .tabs .tab-pane ul i {
   font-size: 30px;
   padding-right: 4px;
@@ -858,15 +984,18 @@ section {
   text-shadow: 2px 2px 5px #000000;
 }
 
+/* line 751, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .tabs .tab-pane p:last-child {
   margin-bottom: 0;
 }
 
 @media (max-width: 768px) {
+  /* line 755, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   .tabs .nav-link {
     padding: 0;
     line-height: 1;
   }
+  /* line 758, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   .tabs .nav-link p {
     font-size: 14px;
     text-align: center;
@@ -874,9 +1003,11 @@ section {
 }
 
 @media (max-width: 575px) {
+  /* line 763, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   .tabs .nav-link {
     padding: 15px;
   }
+  /* line 766, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   .tabs .nav-link i {
     font-size: 24px;
   }
@@ -885,6 +1016,7 @@ section {
 /*--------------------------------------------------------------
  *# Services
  *-------------------------------------------------------------- */
+/* line 773, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .services .icon-box {
   margin-bottom: 20px;
   padding: 30px;
@@ -893,15 +1025,18 @@ section {
   transition: 0.3s;
 }
 
+/* line 779, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .services .icon-box:hover {
   background: #2b2b2b;
 }
 
+/* line 782, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .services .icon-box .card {
   margin-left: 300px;
   background-color: #f00404;
 }
 
+/* line 786, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .services .icon-box i {
   float: left;
   color: #bb0f0f;
@@ -909,6 +1044,7 @@ section {
   line-height: 0;
 }
 
+/* line 792, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .services .icon-box h4 {
   margin-left: 70px;
   font-weight: 700;
@@ -916,19 +1052,23 @@ section {
   font-size: 18px;
 }
 
+/* line 798, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .services .icon-box h4 a {
   color: #fff;
   transition: 0.3s;
 }
 
+/* line 802, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .services .icon-box h4 a:hover {
   text-decoration: underline;
 }
 
+/* line 805, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .services .icon-box .icon-box:hover h4 a {
   color: #bb0f0f;
 }
 
+/* line 808, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .services .icon-box p {
   margin-left: 70px;
   line-height: 24px;
@@ -938,14 +1078,17 @@ section {
 /*--------------------------------------------------------------
  *# Portfolio
  *-------------------------------------------------------------- */
+/* line 818, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio h2 {
   color: #bb0f0f;
 }
 
+/* line 821, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
 
+/* line 824, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 20px auto;
@@ -953,6 +1096,7 @@ section {
   text-align: center;
 }
 
+/* line 830, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
@@ -967,15 +1111,18 @@ section {
   border-radius: 3px;
 }
 
+/* line 843, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #fff;
   background: #bb0f0f;
 }
 
+/* line 847, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
 }
 
+/* line 850, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio .portfolio-wrap {
   transition: 0.3s;
   position: relative;
@@ -985,6 +1132,7 @@ section {
   box-shadow: 3px 3px 8px #000000;
 }
 
+/* line 858, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio .portfolio-wrap::before {
   content: "";
   background: rgba(17, 17, 17, 0.6);
@@ -998,10 +1146,12 @@ section {
   opacity: 0;
 }
 
+/* line 870, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio .portfolio-wrap img {
   transition: all ease-in-out 0.3s;
 }
 
+/* line 873, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio .portfolio-wrap .portfolio-info {
   opacity: 0;
   position: absolute;
@@ -1018,12 +1168,14 @@ section {
   padding: 20px;
 }
 
+/* line 888, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
 }
 
+/* line 893, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio .portfolio-wrap .portfolio-info p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
@@ -1033,6 +1185,7 @@ section {
   font-style: italic;
 }
 
+/* line 901, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio .portfolio-wrap .portfolio-links {
   text-align: center;
   margin-left: 34%;
@@ -1040,6 +1193,7 @@ section {
   z-index: 4;
 }
 
+/* line 907, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #bb0f0f;
   margin: 0 5px 0 0;
@@ -1049,18 +1203,22 @@ section {
   font-size: 60px;
 }
 
+/* line 914, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   color: #fff;
 }
 
+/* line 918, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio .portfolio-wrap:hover::before {
   opacity: 1;
 }
 
+/* line 921, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio .portfolio-wrap:hover img {
   transform: scale(1.2);
 }
 
+/* line 924, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
 }
@@ -1068,19 +1226,23 @@ section {
 /*--------------------------------------------------------------
  *# Portfolio Details
  *-------------------------------------------------------------- */
+/* line 931, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio-details {
   padding-top: 40px;
 }
 
+/* line 935, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
 }
 
+/* line 938, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
+/* line 942, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
@@ -1089,15 +1251,18 @@ section {
   border: 1px solid #e03a3c;
 }
 
+/* line 949, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #e03a3c;
 }
 
+/* line 952, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio-details .portfolio-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(17, 17, 17, 0.08);
 }
 
+/* line 956, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio-details .portfolio-info h3 {
   font-size: 22px;
   font-weight: 700;
@@ -1106,20 +1271,24 @@ section {
   border-bottom: 1px solid #eee;
 }
 
+/* line 963, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
+/* line 968, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
+/* line 971, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio-details .portfolio-description {
   padding-top: 30px;
 }
 
+/* line 974, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio-details .portfolio-description h2 {
   font-size: 26px;
   font-weight: 700;
@@ -1127,6 +1296,7 @@ section {
   color: #bb0f0f;
 }
 
+/* line 980, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .portfolio-details .portfolio-description p {
   padding: 0;
 }
@@ -1134,6 +1304,7 @@ section {
 /*--------------------------------------------------------------
  *# Testimonials
  *-------------------------------------------------------------- */
+/* line 989, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .testimonials .testimonial-item {
   box-sizing: content-box;
   padding: 30px;
@@ -1146,6 +1317,7 @@ section {
   border: 1px solid #636363;
 }
 
+/* line 1000, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 10px;
@@ -1154,6 +1326,7 @@ section {
   margin: 0 10px 0 0;
 }
 
+/* line 1007, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .testimonials .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
@@ -1162,6 +1335,7 @@ section {
   text-shadow: 2px 2px 5px #000000;
 }
 
+/* line 1014, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .testimonials .testimonial-item h4 {
   font-size: 14px;
   color: #999;
@@ -1169,17 +1343,20 @@ section {
   text-shadow: 2px 2px 5px #000000;
 }
 
+/* line 1020, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
   color: #bb0f0f;
   font-size: 26px;
 }
 
+/* line 1024, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .testimonials .testimonial-item .quote-icon-left {
   display: inline-block;
   left: -5px;
   position: relative;
 }
 
+/* line 1029, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .testimonials .testimonial-item .quote-icon-right {
   display: inline-block;
   right: -5px;
@@ -1187,28 +1364,33 @@ section {
   top: 10px;
 }
 
+/* line 1035, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 30px auto 15px auto;
   text-shadow: 2px 2px 5px #000000;
 }
 
+/* line 1040, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .testimonials .testimonial-item .testimonial-inner {
   color: #ffffff;
   font-weight: bold;
   margin-top: 30px;
 }
 
+/* line 1044, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .testimonials .testimonial-item .testimonial-inner:hover {
   color: #bb0f0f;
   text-shadow: 1px 1px 1px #000000;
 }
 
+/* line 1049, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .testimonials .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
 
+/* line 1053, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
@@ -1217,6 +1399,7 @@ section {
   border: 2px solid #bb0f0f;
 }
 
+/* line 1060, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #bb0f0f;
 }
@@ -1224,10 +1407,12 @@ section {
 /*--------------------------------------------------------------
  *# Pricing
  *-------------------------------------------------------------- */
+/* line 1068, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .pricing h2 {
   color: #bb0f0f;
 }
 
+/* line 1071, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .pricing .box {
   padding: 20px;
   background: #2b2b2b;
@@ -1238,10 +1423,12 @@ section {
   overflow: hidden;
 }
 
+/* line 1079, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .pricing .box:hover {
   background-color: #1c1d1d;
 }
 
+/* line 1082, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .pricing .box h3 {
   font-weight: 400;
   padding: 15px;
@@ -1250,6 +1437,7 @@ section {
   font-weight: 600;
 }
 
+/* line 1089, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .pricing .box h4 {
   font-size: 42px;
   font-weight: 500;
@@ -1257,17 +1445,20 @@ section {
   margin-bottom: 20px;
 }
 
+/* line 1095, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .pricing .box h4 sup {
   font-size: 20px;
   top: -15px;
   left: -3px;
 }
 
+/* line 1100, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .pricing .box h4 span {
   font-size: 16px;
   font-weight: 300;
 }
 
+/* line 1104, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .pricing .box ul {
   padding: 0;
   list-style: none;
@@ -1276,26 +1467,31 @@ section {
   font-size: 14px;
 }
 
+/* line 1111, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .pricing .box ul li {
   padding-bottom: 16px;
 }
 
+/* line 1114, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .pricing .box ul i {
   color: #bb0f0f;
   font-size: 18px;
   padding-right: 4px;
 }
 
+/* line 1119, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .pricing .box ul .na {
   color: rgba(255, 255, 255, 0.5);
   text-decoration: line-through;
 }
 
+/* line 1123, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .pricing .box .btn-wrap {
   padding: 15px;
   text-align: center;
 }
 
+/* line 1127, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .pricing .box .btn-buy {
   display: inline-block;
   padding: 10px 40px 12px 40px;
@@ -1311,21 +1507,25 @@ section {
   box-shadow: 5px 5px 8px #000;
 }
 
+/* line 1141, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .pricing .box .btn-buy:hover {
   border-color: #fff;
   background-color: #bb0f0f;
 }
 
+/* line 1145, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .pricing .featured {
   background: #bb0f0f;
   transition: 2.9s;
 }
 
+/* line 1148, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .pricing .featured:hover {
   background-image: url(/assets/img/4.jpg);
   transition: 2.9s;
 }
 
+/* line 1151, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .pricing .featured:hover:before {
   content: "";
   background: rgba(0, 0, 0, 0.8);
@@ -1340,18 +1540,21 @@ section {
 /*--------------------------------------------------------------
  *# Frequently Asked Questions
  *-------------------------------------------------------------- */
+/* line 1165, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .faq .faq-list {
   padding: 0;
   list-style: none;
   color: #bb0f0f;
 }
 
+/* line 1170, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .faq .faq-list li {
   border-bottom: 2px solid #000000;
   margin-bottom: 20px;
   padding-bottom: 20px;
 }
 
+/* line 1175, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .faq .faq-list a {
   display: block;
   position: relative;
@@ -1365,6 +1568,7 @@ section {
   cursor: pointer;
 }
 
+/* line 1187, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .faq .faq-list i {
   font-size: 24px;
   position: absolute;
@@ -1372,6 +1576,7 @@ section {
   top: 0;
 }
 
+/* line 1193, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .faq .faq-list p {
   color: #fff;
   margin-bottom: 0;
@@ -1379,22 +1584,27 @@ section {
   text-shadow: 2px 2px 5px #000000;
 }
 
+/* line 1199, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .faq .faq-list .icon-show {
   display: none;
 }
 
+/* line 1202, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .faq .faq-list a.collapsed {
   color: #ffffff;
 }
 
+/* line 1205, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .faq .faq-list a.collapsed:hover {
   color: #bb0f0f;
 }
 
+/* line 1208, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .faq .faq-list a.collapsed .icon-show {
   display: inline-block;
 }
 
+/* line 1211, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .faq .faq-list a.collapsed .icon-close {
   display: none;
 }
@@ -1402,6 +1612,7 @@ section {
 /*--------------------------------------------------------------
  *# Team
  *-------------------------------------------------------------- */
+/* line 1218, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
@@ -1411,11 +1622,13 @@ section {
   box-shadow: 3px 3px 8px #000000;
 }
 
+/* line 1226, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .team .member .member-img {
   position: relative;
   overflow: hidden;
 }
 
+/* line 1230, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .team .member .social {
   position: absolute;
   left: 0;
@@ -1428,6 +1641,7 @@ section {
   justify-content: center;
 }
 
+/* line 1241, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .team .member .social a {
   transition: color 0.3s;
   color: #111111;
@@ -1443,19 +1657,23 @@ section {
   color: #fff;
 }
 
+/* line 1255, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .team .member .social a:hover {
   background: #111111;
 }
 
+/* line 1258, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .team .member .social i {
   font-size: 18px;
   line-height: 0;
 }
 
+/* line 1262, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .team .member .member-info {
   padding: 25px 15px;
 }
 
+/* line 1265, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .team .member .member-info h4 {
   font-weight: 700;
   margin-bottom: 5px;
@@ -1463,6 +1681,7 @@ section {
   color: #111111;
 }
 
+/* line 1271, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .team .member .member-info span {
   display: block;
   font-size: 13px;
@@ -1470,12 +1689,14 @@ section {
   color: #aaaaaa;
 }
 
+/* line 1277, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .team .member .member-info p {
   font-size: 14px;
   line-height: 26px;
   color: #ffffff;
 }
 
+/* line 1282, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .team .member:hover .social {
   opacity: 1;
   bottom: 15px;
@@ -1485,16 +1706,19 @@ section {
  *# Contact
  *-------------------------------------------------------------- */
 @media screen and (max-width: 768px) {
+  /* line 1291, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   .contact h2 {
     display: none;
   }
 }
 
+/* line 1294, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .contact .map {
   border: 1px solid #fff;
   border-radius: 4px;
 }
 
+/* line 1297, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .contact .map iframe {
   margin-top: 30px;
   height: 492px;
@@ -1503,11 +1727,13 @@ section {
 }
 
 @media (min-width: 992px) {
+  /* line 1297, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   .contact .map iframe {
     margin-top: 0;
   }
 }
 
+/* line 1305, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .contact .info-box {
   color: #000000;
   text-align: center;
@@ -1518,12 +1744,14 @@ section {
   transition: 0.5s;
 }
 
+/* line 1313, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .contact .info-box:hover {
   transition: 0.5s;
   box-shadow: 5px 5px 5px 2px #000;
   border: 1px solid #fff;
 }
 
+/* line 1318, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .contact .info-box .btn-road {
   margin-top: 20px;
   background-color: #bb0f0f;
@@ -1532,10 +1760,12 @@ section {
   box-shadow: 5px 5px 5px #000;
 }
 
+/* line 1324, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .contact .info-box .btn-road:hover {
   border: 1px solid #fff;
 }
 
+/* line 1327, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .contact .info-box i {
   font-size: 32px;
   color: #bb0f0f;
@@ -1544,6 +1774,7 @@ section {
   border: 2px dotted #f8d4d5;
 }
 
+/* line 1334, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .contact .info-box h3 {
   font-size: 20px;
   color: #bb0f0f;
@@ -1552,6 +1783,7 @@ section {
   margin: 10px 0;
 }
 
+/* line 1341, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .contact .info-box p {
   padding: 0;
   line-height: 24px;
@@ -1561,17 +1793,20 @@ section {
   text-shadow: 2px 2px 5px #000000;
 }
 
+/* line 1349, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .contact .info-box a {
   color: #fff;
   transition: 0.6s;
 }
 
+/* line 1352, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .contact .info-box a:hover {
   transition: 0.6s;
   color: #bb0f0f;
   font-weight: 600;
 }
 
+/* line 1357, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .contact img {
   height: 400px;
   width: 100%;
@@ -1579,6 +1814,7 @@ section {
   box-shadow: 3px 3px 8px #000;
 }
 
+/* line 1364, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .contact .php-email-form {
   box-shadow: 0px 0px 10px #000;
   padding: 30px;
@@ -1586,6 +1822,7 @@ section {
   margin-top: 30px;
 }
 
+/* line 1370, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .contact .php-email-form .error-message {
   display: none;
   color: #fff;
@@ -1595,10 +1832,12 @@ section {
   font-weight: 600;
 }
 
+/* line 1378, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .contact .php-email-form .error-message br + br {
   margin-top: 25px;
 }
 
+/* line 1381, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
@@ -1607,6 +1846,7 @@ section {
   font-weight: 600;
 }
 
+/* line 1388, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .contact .php-email-form .loading {
   display: none;
   background: #fff;
@@ -1614,6 +1854,7 @@ section {
   padding: 15px;
 }
 
+/* line 1394, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .contact .php-email-form .loading:before {
   content: "";
   display: inline-block;
@@ -1627,10 +1868,12 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
+/* line 1406, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .contact .php-email-form .form-group {
   margin-bottom: 25px;
 }
 
+/* line 1409, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .contact .php-email-form input, .contact .php-email-form textarea {
   box-shadow: none;
   font-size: 14px;
@@ -1638,18 +1881,22 @@ section {
   background-color: #3f3f3f;
 }
 
+/* line 1415, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
   border-color: #111111;
 }
 
+/* line 1418, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .contact .php-email-form input {
   padding: 10px 15px;
 }
 
+/* line 1421, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .contact .php-email-form textarea {
   padding: 12px 15px;
 }
 
+/* line 1424, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .contact .php-email-form button[type="submit"] {
   background: #bb0f0f;
   border: 0;
@@ -1659,6 +1906,7 @@ section {
   border-radius: 4px;
 }
 
+/* line 1432, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .contact .php-email-form button[type="submit"]:hover {
   background: #bb0f0f;
 }
@@ -1684,22 +1932,26 @@ section {
 /*--------------------------------------------------------------
  *# Blog
  *-------------------------------------------------------------- */
+/* line 1453, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog {
   padding: 40px 0 20px 0;
 }
 
+/* line 1456, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry {
   padding: 30px;
   margin-bottom: 60px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
+/* line 1461, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-img {
   max-height: 440px;
   margin: -30px -30px 20px -30px;
   overflow: hidden;
 }
 
+/* line 1466, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-title {
   font-size: 28px;
   font-weight: bold;
@@ -1707,20 +1959,24 @@ section {
   margin: 0 0 20px 0;
 }
 
+/* line 1472, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-title a {
   color: #111111;
   transition: 0.3s;
 }
 
+/* line 1476, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-title a:hover {
   color: #bb0f0f;
 }
 
+/* line 1479, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-meta {
   margin-bottom: 15px;
   color: #777777;
 }
 
+/* line 1483, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-meta ul {
   display: flex;
   flex-wrap: wrap;
@@ -1730,16 +1986,19 @@ section {
   margin: 0;
 }
 
+/* line 1491, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-meta ul li + li {
   padding-left: 20px;
 }
 
+/* line 1494, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-meta i {
   font-size: 16px;
   margin-right: 8px;
   line-height: 0;
 }
 
+/* line 1499, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-meta a {
   color: #777777;
   font-size: 14px;
@@ -1747,15 +2006,18 @@ section {
   line-height: 1;
 }
 
+/* line 1506, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-content p {
   line-height: 24px;
 }
 
+/* line 1509, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-content .read-more {
   -moz-text-align-last: right;
   text-align-last: right;
 }
 
+/* line 1513, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-content .read-more a {
   display: inline-block;
   background: #bb0f0f;
@@ -1766,16 +2028,19 @@ section {
   border-radius: 4px;
 }
 
+/* line 1522, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-content .read-more a:hover {
   background: #bb0f0f;
 }
 
+/* line 1525, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-content h3 {
   font-size: 22px;
   margin-top: 30px;
   font-weight: bold;
 }
 
+/* line 1530, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-content blockquote {
   overflow: hidden;
   background-color: #fafafa;
@@ -1785,6 +2050,7 @@ section {
   margin: 20px 0;
 }
 
+/* line 1538, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-content blockquote p {
   color: #444444;
   line-height: 1.6;
@@ -1794,6 +2060,7 @@ section {
   font-size: 22px;
 }
 
+/* line 1546, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-content blockquote::after {
   content: '';
   position: absolute;
@@ -1806,25 +2073,30 @@ section {
   margin-bottom: 20px;
 }
 
+/* line 1557, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-footer {
   padding-top: 10px;
   border-top: 1px solid #e6e6e6;
 }
 
+/* line 1561, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-footer i {
   color: #5e5e5e;
   display: inline;
 }
 
+/* line 1565, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-footer a {
   color: #1e1e1e;
   transition: 0.3s;
 }
 
+/* line 1569, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-footer a:hover {
   color: #bb0f0f;
 }
 
+/* line 1572, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-footer .cats {
   list-style: none;
   display: inline;
@@ -1832,10 +2104,12 @@ section {
   font-size: 14px;
 }
 
+/* line 1578, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-footer .cats li {
   display: inline-block;
 }
 
+/* line 1581, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-footer .tags {
   list-style: none;
   display: inline;
@@ -1843,39 +2117,47 @@ section {
   font-size: 14px;
 }
 
+/* line 1587, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-footer .tags li {
   display: inline-block;
 }
 
+/* line 1590, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-footer .tags li + li::before {
   padding-right: 6px;
   color: #6c757d;
   content: ",";
 }
 
+/* line 1595, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-footer .share {
   font-size: 16px;
 }
 
+/* line 1598, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry .entry-footer .share i {
   padding-left: 5px;
 }
 
+/* line 1601, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .entry-single {
   margin-bottom: 30px;
 }
 
+/* line 1604, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-author {
   padding: 20px;
   margin-bottom: 30px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
+/* line 1609, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-author img {
   width: 120px;
   margin-right: 20px;
 }
 
+/* line 1613, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-author h4 {
   font-weight: 600;
   font-size: 22px;
@@ -1884,65 +2166,79 @@ section {
   color: #111111;
 }
 
+/* line 1619, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-author .social-links {
   margin: 0 10px 10px 0;
 }
 
+/* line 1622, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-author .social-links a {
   color: rgba(17, 17, 17, 0.5);
   margin-right: 5px;
 }
 
+/* line 1626, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-author p {
   font-style: italic;
   color: #b7b7b7;
 }
 
+/* line 1630, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-comments {
   margin-bottom: 30px;
 }
 
+/* line 1633, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-comments .comments-count {
   font-weight: bold;
 }
 
+/* line 1636, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-comments .comment {
   margin-top: 30px;
   position: relative;
 }
 
+/* line 1640, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-comments .comment .comment-img {
   margin-right: 14px;
 }
 
+/* line 1643, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-comments .comment .comment-img img {
   width: 60px;
 }
 
+/* line 1646, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-comments .comment h5 {
   font-size: 16px;
   margin-bottom: 2px;
 }
 
+/* line 1650, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-comments .comment h5 a {
   font-weight: bold;
   color: #444444;
   transition: 0.3s;
 }
 
+/* line 1655, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-comments .comment h5 a:hover {
   color: #bb0f0f;
 }
 
+/* line 1658, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-comments .comment h5 .reply {
   padding-left: 10px;
   color: #111111;
 }
 
+/* line 1662, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-comments .comment h5 .reply i {
   font-size: 20px;
 }
 
+/* line 1665, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-comments .comment time {
   display: block;
   font-size: 14px;
@@ -1950,40 +2246,48 @@ section {
   margin-bottom: 5px;
 }
 
+/* line 1671, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-comments .comment.comment-reply {
   padding-left: 40px;
 }
 
+/* line 1674, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-comments .reply-form {
   margin-top: 30px;
   padding: 30px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
+/* line 1679, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-comments .reply-form h4 {
   font-weight: bold;
   font-size: 22px;
 }
 
+/* line 1683, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-comments .reply-form p {
   font-size: 14px;
 }
 
+/* line 1686, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-comments .reply-form input, .blog .blog-comments .reply-form textarea {
   border-radius: 4px;
   padding: 10px 10px;
   font-size: 14px;
 }
 
+/* line 1691, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-comments .reply-form input:focus, .blog .blog-comments .reply-form textarea:focus {
   box-shadow: none;
   border-color: #bb0f0f;
 }
 
+/* line 1695, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-comments .reply-form .form-group {
   margin-bottom: 25px;
 }
 
+/* line 1698, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-comments .reply-form .btn-primary {
   border-radius: 4px;
   padding: 10px 20px;
@@ -1991,14 +2295,17 @@ section {
   background-color: #111111;
 }
 
+/* line 1704, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-comments .reply-form .btn-primary:hover {
   background-color: #1e1e1e;
 }
 
+/* line 1707, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-pagination {
   color: #444444;
 }
 
+/* line 1710, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-pagination ul {
   display: flex;
   padding: 0;
@@ -2006,11 +2313,13 @@ section {
   list-style: none;
 }
 
+/* line 1716, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-pagination li {
   margin: 0 5px;
   transition: 0.3s;
 }
 
+/* line 1720, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-pagination li a {
   color: #111111;
   padding: 7px 16px;
@@ -2019,20 +2328,24 @@ section {
   justify-content: center;
 }
 
+/* line 1727, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-pagination li.active, .blog .blog-pagination li:hover {
   background: #bb0f0f;
 }
 
+/* line 1730, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .blog-pagination li.active a, .blog .blog-pagination li:hover a {
   color: #fff;
 }
 
+/* line 1733, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .sidebar {
   padding: 30px;
   margin: 0 0 60px 20px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
+/* line 1738, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .sidebar .sidebar-title {
   font-size: 20px;
   font-weight: 700;
@@ -2042,10 +2355,12 @@ section {
   position: relative;
 }
 
+/* line 1746, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .sidebar .sidebar-item {
   margin-bottom: 30px;
 }
 
+/* line 1749, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .sidebar .search-form form {
   background: #fff;
   border: 1px solid #ddd;
@@ -2053,6 +2368,7 @@ section {
   position: relative;
 }
 
+/* line 1755, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .sidebar .search-form form input[type="text"] {
   border: 0;
   padding: 4px;
@@ -2060,6 +2376,7 @@ section {
   width: calc(100% - 40px);
 }
 
+/* line 1761, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .sidebar .search-form form button {
   position: absolute;
   top: 0;
@@ -2077,62 +2394,75 @@ section {
   line-height: 0;
 }
 
+/* line 1777, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .sidebar .search-form form button i {
   line-height: 0;
 }
 
+/* line 1780, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .sidebar .search-form form button:hover {
   background: #bb0f0f;
 }
 
+/* line 1783, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .sidebar .categories ul {
   list-style: none;
   padding: 0;
 }
 
+/* line 1787, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .sidebar .categories ul li + li {
   padding-top: 10px;
 }
 
+/* line 1790, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .sidebar .categories ul a {
   color: #111111;
   transition: 0.3s;
 }
 
+/* line 1794, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .sidebar .categories ul a:hover {
   color: #bb0f0f;
 }
 
+/* line 1797, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .sidebar .categories ul a span {
   padding-left: 5px;
   color: #aaaaaa;
   font-size: 14px;
 }
 
+/* line 1803, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .sidebar .recent-posts .post-item + .post-item {
   margin-top: 15px;
 }
 
+/* line 1806, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .sidebar .recent-posts img {
   width: 80px;
   float: left;
 }
 
+/* line 1810, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .sidebar .recent-posts h4 {
   font-size: 15px;
   margin-left: 95px;
   font-weight: bold;
 }
 
+/* line 1815, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .sidebar .recent-posts h4 a {
   color: #111111;
   transition: 0.3s;
 }
 
+/* line 1819, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .sidebar .recent-posts h4 a:hover {
   color: #bb0f0f;
 }
 
+/* line 1822, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .sidebar .recent-posts time {
   display: block;
   margin-left: 95px;
@@ -2141,19 +2471,23 @@ section {
   color: #aaaaaa;
 }
 
+/* line 1829, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .sidebar .tags {
   margin-bottom: -10px;
 }
 
+/* line 1832, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .sidebar .tags ul {
   list-style: none;
   padding: 0;
 }
 
+/* line 1836, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .sidebar .tags ul li {
   display: inline-block;
 }
 
+/* line 1839, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .sidebar .tags ul a {
   color: #515151;
   font-size: 14px;
@@ -2164,12 +2498,14 @@ section {
   transition: 0.3s;
 }
 
+/* line 1848, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .sidebar .tags ul a:hover {
   color: #fff;
   border: 1px solid #bb0f0f;
   background: #bb0f0f;
 }
 
+/* line 1853, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 .blog .sidebar .tags ul a span {
   padding-left: 5px;
   color: #aaaaaa;
@@ -2179,6 +2515,7 @@ section {
 /*--------------------------------------------------------------
  *# Footer
  *-------------------------------------------------------------- */
+/* line 1862, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #footer {
   color: #bb0f0f;
   font-size: 14px;
@@ -2188,11 +2525,13 @@ section {
 }
 
 @media screen and (min-width: 768px) {
+  /* line 1862, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   #footer {
     text-align: start;
   }
 }
 
+/* line 1871, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #footer h1 {
   color: #bb0f0f;
   font-weight: bold;
@@ -2201,22 +2540,26 @@ section {
 }
 
 @media screen and (min-width: 768px) {
+  /* line 1871, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   #footer h1 {
     text-align: start;
   }
 }
 
+/* line 1880, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #footer .footer-top {
   padding: 60px 0 30px 0;
   background: #1b1b1b;
 }
 
 @media screen and (max-width: 768px) {
+  /* line 1880, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   #footer .footer-top {
     display: none;
   }
 }
 
+/* line 1886, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
   border: 1px solid #fff;
@@ -2224,6 +2567,7 @@ section {
   box-shadow: 3px 3px 8px #000000;
 }
 
+/* line 1892, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #footer .footer-top .footer-contact h3 {
   font-size: 26px;
   line-height: 1;
@@ -2231,18 +2575,22 @@ section {
   line-height: 40px;
 }
 
+/* line 1898, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #footer .footer-top .footer-contact h3 span {
   color: #bb0f0f;
 }
 
+/* line 1901, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #footer .footer-top .footer-contact a {
   color: #bb0f0f;
 }
 
+/* line 1903, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #footer .footer-top .footer-contact a:hover {
   color: #bb0f0f;
 }
 
+/* line 1905, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #footer .footer-top .footer-contact p {
   font-size: 14px;
   line-height: 24px;
@@ -2250,6 +2598,7 @@ section {
   font-family: "Raleway", sans-serif;
 }
 
+/* line 1911, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
@@ -2257,6 +2606,7 @@ section {
   padding-bottom: 12px;
 }
 
+/* line 1917, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #footer .footer-top h4::after {
   content: '';
   position: absolute;
@@ -2268,29 +2618,34 @@ section {
   left: 0;
 }
 
+/* line 1927, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #footer .footer-newsletter {
   font-size: 15px;
   text-align: center;
 }
 
 @media screen and (min-width: 768px) {
+  /* line 1927, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   #footer .footer-newsletter {
     text-align: start;
   }
 }
 
+/* line 1933, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #footer .footer-newsletter iframe {
   width: 100%;
   height: 400px;
 }
 
 @media screen and (min-width: 768px) {
+  /* line 1933, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
   #footer .footer-newsletter iframe {
     width: 100%;
     height: 300px;
   }
 }
 
+/* line 1940, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #footer .footer-newsletter h3 {
   font-size: 28px;
   font-weight: bold;
@@ -2300,6 +2655,7 @@ section {
   text-shadow: 3px 3px 3px #000000;
 }
 
+/* line 1948, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #footer .credits {
   padding-top: 5px;
   font-size: 13px;
@@ -2307,15 +2663,18 @@ section {
   text-shadow: none;
 }
 
+/* line 1953, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #footer .credits a {
   color: #131212;
 }
 
+/* line 1956, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #footer .copyright {
   color: #131212;
   text-shadow: none;
 }
 
+/* line 1960, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
@@ -2331,6 +2690,7 @@ section {
   transition: 0.3s;
 }
 
+/* line 1974, ../../../../../Users/han/Desktop/gulpStart/app/SolarGlass/assets/scss/style.sass */
 #footer .social-links a:hover {
   background: #bb0f0f;
   color: #fff;
@@ -2338,3 +2698,5 @@ section {
 }
 
 /*кнопка звонка */
+
+/*# sourceMappingURL=style.css.map */
