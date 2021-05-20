@@ -173,54 +173,54 @@ a {
 /*.product-item
   background-color: #111111
   box-shadow: #000000 0 0 10px 1px */
-        .product-item {
-          position: relative;
-          background-color: #252525;
-          box-shadow: #000000 0 0 10px 1px;
-        }
+.product-item {
+  position: relative;
+  background-color: #252525;
+  box-shadow: #000000 0 0 10px 1px;
+}
 
-        @media screen and (min-width: 768px) {
-          .product-item .stations-button {
-            display: none;
-          }
-        }
+@media screen and (min-width: 768px) {
+  .product-item .stations-button {
+    display: none;
+  }
+}
 
-        .product-item:hover {
-          box-shadow: #aaa 0 0 10px 1px;
-        }
+.product-item:hover {
+  box-shadow: #aaa 0 0 10px 1px;
+}
 
-        .product-item:hover .buttons-item {
-          opacity: 1;
-        }
+.product-item:hover .buttons-item {
+  opacity: 1;
+}
 
-        .product-item:hover .stations-item {
-          opacity: 1;
-        }
+.product-item:hover .stations-item {
+  opacity: 1;
+}
 
-        @media screen and (min-width: 768px) {
-          .product-item .product-item-logo {
-            width: 80%;
-          }
-        }
+@media screen and (min-width: 768px) {
+  .product-item .product-item-logo {
+    width: 80%;
+  }
+}
 
-        .buttons-item {
-          opacity: 0;
-          transition: opacity 1s;
-          position: absolute;
-          top: 0;
-          left: 0;
-          background-image: linear-gradient(#000000bd, #000000b9);
-          padding: 50px;
-          box-sizing: border-box;
-          width: 100%;
-          height: 100%;
-        }
+.buttons-item {
+  opacity: 0;
+  transition: opacity 1s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(#000000bd, #000000b9);
+  padding: 50px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
 
-        .buttons-item a {
-          margin-bottom: 30px;
-          background-color: #252424;
-          box-shadow: #aaa 0 0 5px 1px;
-        }
+.buttons-item a {
+  margin-bottom: 30px;
+  background-color: #252424;
+  box-shadow: #aaa 0 0 5px 1px;
+}
 
 .stations-item {
   opacity: 0;
@@ -581,15 +581,6 @@ table td img {
   bottom: 30px;
   z-index: 999;
   transition: .3s;
-}
-
-.facebook:hover, .instagramm:hover, .youtube:hover, .back-call:hover {
-  width: 55px;
-}
-
-.facebook:hover i, .instagramm:hover i, .youtube:hover i, .back-call:hover i {
-  color: #bb0f0f;
-  transition: .6s;
 }
 
 .facebook i, .instagramm i, .youtube i, .back-call i {
