@@ -583,6 +583,16 @@ table td img {
   transition: .3s;
 }
 
+@media (min-width: 767.98px) {
+  .facebook:hover, .instagramm:hover, .youtube:hover, .back-call:hover {
+    width: 55px;
+  }
+  .facebook:hover i, .instagramm:hover i, .youtube:hover i, .back-call:hover i {
+    color: #bb0f0f;
+    transition: .6s;
+  }
+}
+
 .facebook i, .instagramm i, .youtube i, .back-call i {
   color: #fff;
   font-size: 18px;
@@ -622,13 +632,14 @@ table td img {
   visibility: hidden;
 }
 
-#button:hover {
-  width: 55px;
-}
-
-#button:hover i {
-  color: #bb0f0f;
-  transition: .6s;
+@media (min-width: 767.98px) {
+  #button:hover {
+    width: 55px;
+  }
+  #button:hover i {
+    color: #bb0f0f;
+    transition: .6s;
+  }
 }
 
 #button i {
