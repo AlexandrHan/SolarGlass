@@ -1,26 +1,32 @@
+/* line 1, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 body {
   background-color: #353535;
   font-family: 'Open Sans Condensed', sans-serif;
 }
 
+/* line 4, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 body .container {
   max-width: 1600px;
 }
 
+/* line 8, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .row h2 {
   color: red;
   text-shadow: 2px 2px 2px #000;
 }
 
+/* line 11, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .row .title-icon {
   margin-bottom: 30px;
   color: red;
 }
 
+/* line 15, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 a {
   transition: color .2s linear 0s;
 }
 
+/* line 18, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .top-nav {
   margin: 0;
   padding: 0;
@@ -29,25 +35,30 @@ a {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* line 25, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .top-nav li {
   display: inline;
   padding: .1rem .5rem;
   border-right: 1px solid #fff;
 }
 
+/* line 30, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .top-nav li:last-of-type {
   border-right: 0;
 }
 
+/* line 33, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .top-nav li a {
   color: #e0e0e0;
   text-decoration: none;
 }
 
+/* line 37, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .top-nav li a:hover, .top-nav li a:focus {
   color: #fff;
 }
 
+/* line 40, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .main-logo {
   margin-left: auto;
   margin-right: auto;
@@ -55,11 +66,13 @@ a {
   height: 75px;
 }
 
+/* line 46, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .logo-section {
   margin-top: 40px;
   margin-bottom: 40px;
 }
 
+/* line 49, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .logo-section p {
   color: #fff;
   max-width: 600px;
@@ -67,6 +80,7 @@ a {
   margin-right: auto;
 }
 
+/* line 55, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .header-item {
   padding: .25rem .4rem;
   cursor: pointer;
@@ -76,67 +90,101 @@ a {
   line-height: 2.5;
 }
 
+/* line 63, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .header-item img {
   max-width: 220px;
   max-height: 55px;
 }
 
+/* line 68, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .header-item-holder .header-item:hover, .header-item-holder .header-item:focus {
   color: #bb0f0f;
   text-decoration: none;
 }
 
+/* line 72, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .navbar-toggler {
   border: 1px solid #fff;
+  margin-left: 85%;
 }
 
+/* line 77, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .nav-item {
   margin-right: 5px;
 }
 
+/* line 79, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .nav-item .dropdown-menu {
   margin-top: 0px;
   background-color: #bb0f0f;
   border: 1px solid #000;
 }
 
+/* line 83, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .nav-item .dropdown-menu .dropdown-item {
   color: #fff;
 }
 
+@media screen and (max-width: 768px) {
+  /* line 83, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+  .nav-item .dropdown-menu .dropdown-item {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+}
+
+/* line 90, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .nav-item .dropdown-menu .dropdown-item:hover {
   color: #000;
   background-color: transparent;
 }
 
+/* line 94, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .nav-item:last-of-type {
   margin-right: 0;
 }
 
-.nav-item .nav-link {
-  padding-top: .2rem;
-  padding-bottom: .3rem;
-  font-size: 16px;
+/* line 97, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+.nav-link {
+  padding-top: 0.3rem;
+  padding-bottom: 0.1rem;
+  font-size: 14px;
   letter-spacing: 1px;
   color: #fff;
   text-shadow: 1px 1px 1px #000;
 }
 
-.nav-item .nav-link:hover {
+/* line 104, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+.nav-link:hover {
   color: #bb0f0f;
 }
 
+@media screen and (max-width: 768px) {
+  /* line 97, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+  .nav-link {
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    text-align: center;
+    font-size: 20px;
+  }
+}
+
+/* line 112, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .btn-group {
   margin-left: auto;
   margin-right: auto;
 }
 
 @media screen and (min-width: 768px) {
+  /* line 112, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
   .btn-group {
     margin: 0;
   }
 }
 
+/* line 117, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .btn-group .btn-category {
   color: #fff;
   border-radius: 4px;
@@ -147,25 +195,30 @@ a {
   right: auto;
 }
 
+/* line 125, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .btn-group .dropdown-menu {
   background-color: #202020;
   width: 100%;
 }
 
+/* line 128, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .btn-group .dropdown-menu .dropdown-item {
   text-align: center;
 }
 
 @media screen and (min-width: 768px) {
+  /* line 128, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
   .btn-group .dropdown-menu .dropdown-item {
     text-align: start;
   }
 }
 
+/* line 132, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .btn-group .dropdown-menu .dropdown-item:hover {
   background-color: #525252;
 }
 
+/* line 134, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .btn-group .dropdown-menu a {
   color: #fff;
 }
@@ -173,6 +226,7 @@ a {
 /*.product-item
   background-color: #111111
   box-shadow: #000000 0 0 10px 1px */
+/* line 149, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .product-item {
   position: relative;
   background-color: #252525;
@@ -180,29 +234,35 @@ a {
 }
 
 @media screen and (min-width: 768px) {
+  /* line 154, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
   .product-item .stations-button {
     display: none;
   }
 }
 
+/* line 156, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .product-item:hover {
   box-shadow: #aaa 0 0 10px 1px;
 }
 
+/* line 158, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .product-item:hover .buttons-item {
   opacity: 1;
 }
 
+/* line 160, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .product-item:hover .stations-item {
   opacity: 1;
 }
 
 @media screen and (min-width: 768px) {
+  /* line 162, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
   .product-item .product-item-logo {
     width: 80%;
   }
 }
 
+/* line 166, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .buttons-item {
   opacity: 0;
   transition: opacity 1s;
@@ -216,12 +276,14 @@ a {
   height: 100%;
 }
 
+/* line 177, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .buttons-item a {
   margin-bottom: 30px;
   background-color: #252424;
   box-shadow: #aaa 0 0 5px 1px;
 }
 
+/* line 182, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .stations-item {
   opacity: 0;
   transition: opacity 1s;
@@ -235,25 +297,30 @@ a {
   height: 100%;
 }
 
+/* line 193, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .stations-item h3 {
   color: #bb0f0f;
 }
 
+/* line 195, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .stations-item p {
   color: #fff;
   text-align: start;
 }
 
+/* line 200, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .product-list {
   list-style: none;
 }
 
+/* line 203, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .product-name {
   font-size: 1.2rem;
   font-weight: 600;
   color: #ffffff;
 }
 
+/* line 208, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .product-name.large {
   font-size: 21px;
   line-height: 1.3;
@@ -261,27 +328,32 @@ a {
   color: #bb0f0f;
 }
 
+/* line 214, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .product-name small {
   font-size: .85rem;
   display: block;
   width: 100%;
 }
 
+/* line 220, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 a.product-name:hover, a.product-name:focus {
   color: #bb0f0f;
   text-decoration: none;
 }
 
+/* line 224, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .btn {
   color: #fff;
   border: 2px solid #bb0f0f;
 }
 
+/* line 227, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .btn:hover {
   background-color: #bb0f0f;
   border: 2px solid #fff;
 }
 
+/* line 231, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .product-price-old {
   text-decoration: line-through;
   color: #aaa8a8;
@@ -289,74 +361,90 @@ a.product-name:hover, a.product-name:focus {
   font-size: 18px;
 }
 
+/* line 237, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .product-price {
   color: #bb0f0f;
   font-size: 24px;
   font-weight: 600;
 }
 
+/* line 242, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 i {
   color: #bb0f0f;
 }
 
+/* line 245, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 footer {
   background-color: #111111;
 }
 
+/* line 247, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 footer .btn {
   margin-top: 30px;
 }
 
+/* line 250, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 footer iframe {
   margin-top: 20px;
 }
 
+/* line 253, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 footer .paretto {
   margin-top: 30px;
 }
 
+/* line 256, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .footer-logo {
   font-size: 1.65rem;
   font-family: 'Righteous', cursive;
 }
 
+/* line 260, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .footer-nav {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
+/* line 265, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .footer-nav li {
   margin-top: 10px;
 }
 
+/* line 268, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .footer-logo a, .footer-nav a {
   color: #e0e0e0;
   text-decoration: none;
 }
 
+/* line 272, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .footer-logo img {
   max-height: 75px;
 }
 
+/* line 275, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .social-icon {
   color: #e0e0e0;
   font-size: 13px;
   margin-right: 10px;
 }
 
+/* line 281, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .footer-logo a:hover, .footer-logo a:focus {
   color: #fff;
 }
 
+/* line 285, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .footer-nav a:hover, .footer-nav a:focus {
   color: #fff;
 }
 
+/* line 289, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .social-icon:hover, .social-icon:focus {
   color: #fff;
 }
 
+/* line 292, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .message-holder {
   position: fixed;
   left: 1rem;
@@ -366,15 +454,18 @@ footer .paretto {
   z-index: 1080;
 }
 
+/* line 300, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .message-holder .alert {
   box-shadow: #707070 1px 2px 5px;
 }
 
+/* line 303, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .product-item {
   position: relative;
   overflow: hidden;
 }
 
+/* line 307, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .new {
   position: absolute;
   top: 0;
@@ -387,48 +478,58 @@ footer .paretto {
   transition: all .3s ease-out 0s;
 }
 
+/* line 318, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .product-item:hover .new {
   left: 0;
   width: auto;
 }
 
+/* line 322, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .large-holder {
   border-right: 1px solid #c0c0c0;
 }
 
+/* line 325, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .large-holder:last-of-type {
   border-right: 0;
 }
 
+/* line 328, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .large-icon {
   font-size: 45px;
 }
 
+/* line 331, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .large-text {
   font-size: 25px;
   line-height: 2.6;
 }
 
+/* line 335, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .slider-img {
   width: 100%;
   height: auto;
 }
 
+/* line 339, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .large-icon, .large-text {
   color: #6c6c6c;
 }
 
+/* line 342, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .img-large {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 
+/* line 347, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .img-large:hover {
   background-size: 300%;
   cursor: zoom-in;
 }
 
+/* line 351, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .img-small {
   background-position: center;
   background-size: cover;
@@ -436,6 +537,7 @@ footer .paretto {
   cursor: pointer;
 }
 
+/* line 357, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .detail-price {
   font-weight: bold;
   font-size: 2.6rem;
@@ -443,6 +545,7 @@ footer .paretto {
   display: block;
 }
 
+/* line 363, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .detail-price-old {
   text-decoration: line-through;
   font-size: 1.6rem;
@@ -451,28 +554,33 @@ footer .paretto {
   display: block;
 }
 
+/* line 370, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .sidebar {
   border-left-width: 1px !important;
   border-top-width: 0 !important;
 }
 
+/* line 374, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .average-rating {
   font-weight: bold;
   font-size: 4.6rem;
 }
 
+/* line 378, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .rating-list {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
+/* line 383, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .rating-list li {
   display: inline-block;
   width: 100%;
   height: 15px;
 }
 
+/* line 388, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .rating-list .progress {
   width: 170px;
   height: 15px;
@@ -482,29 +590,35 @@ footer .paretto {
   background-color: #cccccc;
 }
 
+/* line 396, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .rating-list .progress .progress-bar {
   font-size: 10px;
   font-weight: bold;
 }
 
+/* line 400, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .rating-list .rating-progress-label {
   line-height: 1;
   font-size: 14px;
   float: left;
 }
 
+/* line 405, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .bg-gray {
   background-color: #e4e4e4;
 }
 
+/* line 408, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .ratings {
   margin-top: 5px;
 }
 
+/* line 411, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .ratings input {
   display: none;
 }
 
+/* line 415, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .ratings label:before {
   font-family: "Font Awesome 5 Free", fantasy;
   content: '\f005';
@@ -513,18 +627,22 @@ footer .paretto {
   cursor: pointer;
 }
 
+/* line 423, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .ratings label:hover:before, .ratings label:hover ~ label:before {
   font-weight: bold;
 }
 
+/* line 426, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .ratings input:checked ~ label:before {
   font-weight: bold;
 }
 
+/* line 429, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .pagination {
   font-size: 20px;
 }
 
+/* line 432, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .pagination .page-link {
   background-color: transparent;
   border: 0;
@@ -532,15 +650,18 @@ footer .paretto {
   color: #656565;
 }
 
+/* line 438, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .pagination .page-link:hover, .pagination .page-link:focus {
   color: #000;
 }
 
+/* line 442, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .pagination .page-item.disabled .page-link {
   background-color: transparent;
   color: #9fa9ab;
 }
 
+/* line 446, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .pagination .page-item.active .page-link {
   background-color: #656565;
   color: #fff;
@@ -554,21 +675,25 @@ footer .paretto {
   padding-right: 0;
 }
 
+/* line 459, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 table td, table th {
   vertical-align: middle !important;
 }
 
+/* line 462, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 table td img {
   max-height: 80px;
 }
 
 @media (max-width: 767.98px) {
+  /* line 466, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
   .sidebar {
     border-left-width: 0 !important;
     border-top-width: 1px !important;
   }
 }
 
+/* line 470, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .facebook, .instagramm, .youtube, .back-call {
   background: rgba(0, 0, 0, 0.575);
   border-radius: 4px;
@@ -584,15 +709,18 @@ table td img {
 }
 
 @media (min-width: 767.98px) {
+  /* line 483, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
   .facebook:hover, .instagramm:hover, .youtube:hover, .back-call:hover {
     width: 55px;
   }
+  /* line 485, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
   .facebook:hover i, .instagramm:hover i, .youtube:hover i, .back-call:hover i {
     color: #bb0f0f;
     transition: .6s;
   }
 }
 
+/* line 488, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .facebook i, .instagramm i, .youtube i, .back-call i {
   color: #fff;
   font-size: 18px;
@@ -600,23 +728,28 @@ table td img {
   line-height: 40px;
 }
 
+/* line 494, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .facebook {
   bottom: 80px;
 }
 
+/* line 496, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .instagramm {
   bottom: 130px;
 }
 
+/* line 498, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .youtube {
   bottom: 180px;
 }
 
+/* line 500, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .back-call {
   bottom: 230px;
 }
 
 /************* go to top *****************/
+/* line 506, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 #button {
   background: rgba(0, 0, 0, 0.575);
   border-radius: 4px;
@@ -633,15 +766,18 @@ table td img {
 }
 
 @media (min-width: 767.98px) {
+  /* line 522, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
   #button:hover {
     width: 55px;
   }
+  /* line 524, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
   #button:hover i {
     color: #bb0f0f;
     transition: .6s;
   }
 }
 
+/* line 528, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 #button i {
   color: #fff;
   font-size: 18px;
@@ -649,16 +785,19 @@ table td img {
   line-height: 40px;
 }
 
+/* line 534, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 #button:active {
   background-color: #555;
 }
 
+/* line 537, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 #button.show {
   opacity: 1;
   visibility: visible;
 }
 
 /* Styles for the content section */
+/* line 543, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .content {
   width: 77%;
   margin: 50px auto;
@@ -669,39 +808,47 @@ table td img {
 }
 
 @media (min-width: 500px) {
+  /* line 554, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
   .content {
     width: 43%;
   }
+  /* line 557, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
   #button {
     margin-bottom: 0px;
   }
 }
 
+/* line 587, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .panel-grid-cell section {
   padding: 80px 0;
   z-index: 999;
   text-align: center;
 }
 
+/* line 593, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover {
   background-color: #bb0f0f;
 }
 
+/* line 596, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 button:hover, .btn:hover {
   background-color: #bb0f0f;
 }
 
+/* line 599, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .mfp-close-btn-in .mfp-close {
   color: #bb0f0f !important;
 }
 
 /* modal windows */
+/* line 604, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 div > a.popup-modal.button[href="#form"] {
   text-transform: uppercase;
   text-decoration: none;
   margin-top: 100px;
 }
 
+/* line 609, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .mfp-content {
   position: fixed;
   display: inline-block;
@@ -716,6 +863,7 @@ div > a.popup-modal.button[href="#form"] {
   border-radius: 4px;
 }
 
+/* line 624, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 a.popup-modal-dismiss {
   position: absolute;
   top: 0;
@@ -730,11 +878,12 @@ a.popup-modal-dismiss {
   background: transparent;
 }
 
+/* line 637, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .putNumber, .putName, .putPhone {
   width: 210px !important;
   padding: 9px 10px !important;
   height: 40px !important;
-  background: rgba(75, 75, 75, 0.62) !important;
+  background: rgba(94, 92, 92, 0.726) !important;
   margin-bottom: 15px;
   border-radius: 2px !important;
   border: none !important;
@@ -744,14 +893,17 @@ a.popup-modal-dismiss {
   font-size: 18px;
 }
 
+/* line 651, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 input.putName:focus, input.putPhone:focus {
   box-shadow: 0 0 2px 1px #bb0f0f !important;
 }
 
+/* line 654, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 #form > input.btn {
   margin-top: 10px;
 }
 
+/* line 657, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 p.title {
   margin: 15px 10px 2px !important;
   color: #e1e1e1 !important;
@@ -760,11 +912,13 @@ p.title {
   font-size: 22px;
 }
 
+/* line 664, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 #form {
   border: 1px solid #bb0f0f;
   border-radius: 4px;
 }
 
+/* line 668, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 input.btn {
   width: 210px;
   height: 40px;
@@ -778,6 +932,9 @@ input.btn {
   line-height: 1;
 }
 
+/* line 679, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 input.btn:hover {
   color: #fff;
 }
+
+/*# sourceMappingURL=style.css.map */

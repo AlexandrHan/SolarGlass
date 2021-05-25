@@ -105,6 +105,6 @@ btn.on('click', function(e) {
 		return false;
 	});
 	
-	$('input[name="phone"]').mask("+38 (099) 999-99-99");
+	//$('input[name="phone"]').mask("+38 (099) 999-99-99");
 	
 })(jQuery);

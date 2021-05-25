@@ -71,6 +71,8 @@ a
   
 .navbar-toggler
   border: 1px solid #fff
+  margin-left: 85%
+
 
 .nav-item
   margin-right: 5px
@@ -80,6 +82,11 @@ a
       border: 1px solid #000
       .dropdown-item
           color: #fff
+          @media screen and ( max-width: 768px )
+            font-size: 20px
+            padding-top: 20px
+            padding-bottom: 20px
+            text-align: center
           &:hover
               color: #000
               background-color: transparent
@@ -87,15 +94,20 @@ a
   &:last-of-type
     margin-right: 0
 
-  .nav-link
-    padding-top: .2rem
-    padding-bottom: .3rem
-    font-size: 16px
-    letter-spacing: 1px
-    color: #fff
-    text-shadow: 1px 1px 1px #000
-    &:hover
-        color: #bb0f0f
+.nav-link
+  padding-top: 0.3rem
+  padding-bottom: 0.1rem
+  font-size: 14px
+  letter-spacing: 1px
+  color: #fff
+  text-shadow: 1px 1px 1px #000
+  &:hover
+    color: #bb0f0f
+  @media screen and ( max-width: 768px )
+    padding-top: 0.9rem
+    padding-bottom: 0.9rem 
+    text-align: center
+    font-size: 20px
 
 .btn-group
   margin-left: auto
@@ -547,8 +559,6 @@ table
 
 
 
-
-
 //***************************************
   .button
   display: inline-block
@@ -565,7 +575,6 @@ table
   transition: .15s ease-out
   box-sizing: border-box
   text-decoration: none
-  font-family: Alice, serif
   text-shadow: #000000 2px 2px 2px
   letter-spacing: 2px
 
@@ -629,7 +638,7 @@ a.popup-modal-dismiss
   width: 210px !important
   padding: 9px 10px !important
   height: 40px !important
-  background: rgba(75, 75, 75, 0.62) !important
+  background: rgba(94, 92, 92, 0.726) !important
   margin-bottom: 15px
   border-radius: 2px !important
   border: none !important
@@ -666,7 +675,6 @@ input.btn
   outline: none
   color: #fff
   cursor: pointer
-  line-height: 1
-
+  line-height: 1 
   &:hover
     color: #fff
