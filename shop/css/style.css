@@ -708,19 +708,26 @@ table td img {
   transition: .3s;
 }
 
+@media (max-width: 768px) {
+  /* line 470, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+  .facebook, .instagramm, .youtube, .back-call {
+    left: 0;
+  }
+}
+
 @media (min-width: 767.98px) {
-  /* line 483, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+  /* line 485, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
   .facebook:hover, .instagramm:hover, .youtube:hover, .back-call:hover {
     width: 55px;
   }
-  /* line 485, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+  /* line 487, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
   .facebook:hover i, .instagramm:hover i, .youtube:hover i, .back-call:hover i {
     color: #bb0f0f;
     transition: .6s;
   }
 }
 
-/* line 488, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+/* line 490, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .facebook i, .instagramm i, .youtube i, .back-call i {
   color: #fff;
   font-size: 18px;
@@ -728,28 +735,28 @@ table td img {
   line-height: 40px;
 }
 
-/* line 494, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+/* line 496, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .facebook {
   bottom: 80px;
 }
 
-/* line 496, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+/* line 498, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .instagramm {
   bottom: 130px;
 }
 
-/* line 498, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+/* line 500, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .youtube {
   bottom: 180px;
 }
 
-/* line 500, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+/* line 502, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .back-call {
   bottom: 230px;
 }
 
 /************* go to top *****************/
-/* line 506, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+/* line 508, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 #button {
   background: rgba(0, 0, 0, 0.575);
   border-radius: 4px;
@@ -765,19 +772,26 @@ table td img {
   visibility: hidden;
 }
 
+@media (max-width: 768px) {
+  /* line 508, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+  #button {
+    left: 0;
+  }
+}
+
 @media (min-width: 767.98px) {
-  /* line 522, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+  /* line 526, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
   #button:hover {
     width: 55px;
   }
-  /* line 524, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+  /* line 528, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
   #button:hover i {
     color: #bb0f0f;
     transition: .6s;
   }
 }
 
-/* line 528, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+/* line 532, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 #button i {
   color: #fff;
   font-size: 18px;
@@ -785,19 +799,19 @@ table td img {
   line-height: 40px;
 }
 
-/* line 534, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+/* line 538, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 #button:active {
   background-color: #555;
 }
 
-/* line 537, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+/* line 541, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 #button.show {
   opacity: 1;
   visibility: visible;
 }
 
 /* Styles for the content section */
-/* line 543, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+/* line 547, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .content {
   width: 77%;
   margin: 50px auto;
@@ -808,47 +822,47 @@ table td img {
 }
 
 @media (min-width: 500px) {
-  /* line 554, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+  /* line 558, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
   .content {
     width: 43%;
   }
-  /* line 557, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+  /* line 561, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
   #button {
     margin-bottom: 0px;
   }
 }
 
-/* line 587, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+/* line 591, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .panel-grid-cell section {
   padding: 80px 0;
   z-index: 999;
   text-align: center;
 }
 
-/* line 593, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+/* line 597, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover {
   background-color: #bb0f0f;
 }
 
-/* line 596, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+/* line 600, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 button:hover, .btn:hover {
   background-color: #bb0f0f;
 }
 
-/* line 599, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+/* line 603, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .mfp-close-btn-in .mfp-close {
   color: #bb0f0f !important;
 }
 
 /* modal windows */
-/* line 604, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+/* line 608, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 div > a.popup-modal.button[href="#form"] {
   text-transform: uppercase;
   text-decoration: none;
   margin-top: 100px;
 }
 
-/* line 609, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+/* line 613, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .mfp-content {
   position: fixed;
   display: inline-block;
@@ -863,7 +877,7 @@ div > a.popup-modal.button[href="#form"] {
   border-radius: 4px;
 }
 
-/* line 624, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+/* line 628, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 a.popup-modal-dismiss {
   position: absolute;
   top: 0;
@@ -878,7 +892,7 @@ a.popup-modal-dismiss {
   background: transparent;
 }
 
-/* line 637, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+/* line 641, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 .putNumber, .putName, .putPhone {
   width: 210px !important;
   padding: 9px 10px !important;
@@ -893,17 +907,17 @@ a.popup-modal-dismiss {
   font-size: 18px;
 }
 
-/* line 651, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+/* line 655, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 input.putName:focus, input.putPhone:focus {
   box-shadow: 0 0 2px 1px #bb0f0f !important;
 }
 
-/* line 654, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+/* line 658, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 #form > input.btn {
   margin-top: 10px;
 }
 
-/* line 657, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+/* line 661, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 p.title {
   margin: 15px 10px 2px !important;
   color: #e1e1e1 !important;
@@ -912,13 +926,13 @@ p.title {
   font-size: 22px;
 }
 
-/* line 664, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+/* line 668, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 #form {
   border: 1px solid #bb0f0f;
   border-radius: 4px;
 }
 
-/* line 668, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+/* line 672, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 input.btn {
   width: 210px;
   height: 40px;
@@ -932,7 +946,7 @@ input.btn {
   line-height: 1;
 }
 
-/* line 679, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
+/* line 683, ../../../../../Users/han/Desktop/gulpStart/app/shop/scss/style.sass */
 input.btn:hover {
   color: #fff;
 }
